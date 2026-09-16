@@ -45,14 +45,6 @@ git clone https://github.com/Aarishkhan12/COFFEE-HOUSE.git
 cd COFFEE-HOUSE
 open index.html
 ```
-
-## Deploy with GitHub Pages
-
-1. Go to **Settings > Pages**
-2. Set Source to **Deploy from a branch**
-3. Select **main** branch, **/ (root)** folder
-4. Save, and your site is live
-
 ## Author
 
 **Aarish Khan** — [@Aarishkhan12](https://github.com/Aarishkhan12)
