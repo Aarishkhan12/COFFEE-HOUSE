@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Order Now | Coffee House</title>
+</head>
+<body>
+    <nav class="navbar" aria-label="Main navigation"><div class="nav-inner">
+        <a class="brand" href="index.html" aria-label="Coffee House home"><span>Coffee House</span></a>
+        <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Toggle navigation menu"><label class="menu-button" for="menu-toggle" aria-hidden="true"><span></span><span></span><span></span></label>
+        <div class="menu1"><ul class="ol1"><li><a href="index.html">Home</a></li><li><a href="coffee.html">Coffee</a></li><li><a href="shop.html">Shop</a></li><li><a href="contact.html">Contact Us</a></li><li><a href="about.html">About Us</a></li></ul><a class="order-button active" href="order.html">Order now <span aria-hidden="true">&#8599;</span></a></div>
+    </div></nav>
+    <main>
+        <section class="page-hero order-hero"><p class="eyebrow">Made fresh for you</p><h1>Make it a<br><em>coffee day.</em></h1><p>Choose your favourites below and we will have them ready for pickup at the house.</p></section>
+        <section class="order-section"><div class="order-intro"><p class="eyebrow">Your order</p><h2>Build your<br><em>perfect cup.</em></h2><p>Tell us what you are craving. We will confirm the details when we receive your order.</p></div><form class="order-form"><div class="form-row"><div><label for="coffee-choice">Choose a coffee</label><select id="coffee-choice"><option>House Blend - $16</option><option>Morning Light - $18</option><option>After Hours - $19</option><option>Night Train - $17</option></select></div><div><label for="quantity">Quantity</label><select id="quantity"><option>1 bag</option><option>2 bags</option><option>3 bags</option><option>4 bags</option></select></div></div><label for="order-name">Your name</label><input id="order-name" type="text" placeholder="Your name" required><label for="order-email">Email address</label><input id="order-email" type="email" placeholder="you@example.com" required><fieldset><legend>Pickup or delivery?</legend><label class="radio-label"><input type="radio" name="delivery" checked> Pickup at Coffee House</label><label class="radio-label"><input type="radio" name="delivery"> Local delivery</label></fieldset><label for="order-notes">Notes</label><textarea id="order-notes" rows="4" placeholder="Grind preference, pickup time, or anything else..."></textarea><button class="primary-button" type="submit">Place order request <span aria-hidden="true">&#8594;</span></button></form></section>
+    </main>
+    <footer class="footer"><a class="brand" href="index.html"><span>Coffee House</span></a><p>Made for slow mornings and good company.</p><div class="footer-links"><a href="coffee.html">Instagram</a><a href="contact.html">Contact</a><span>&copy; 2024 Coffee House</span></div></footer>
+</body>
+</html>
