@@ -1,5 +1,7 @@
 # ☕ Coffee House
 
+> **[Live Demo](https://aarishkhan12.github.io/COFFEE-HOUSE/)** (enable GitHub Pages to activate)
+
 A clean, multi-page coffee shop website built from scratch with HTML and CSS. Features a full storefront experience: landing page, menu, shop, order flow, and contact.
 
 ## Pages
@@ -23,23 +25,33 @@ HTML  ·  CSS  ·  Responsive Layout
 
 ```
 COFFEE-HOUSE/
-└── COFFE HOUSE/
-    ├── index.html
-    ├── coffee.html
-    ├── shop.html
-    ├── order.html
-    ├── about.html
-    ├── contact.html
-    └── assets/
+├── index.html
+├── coffee.html
+├── shop.html
+├── order.html
+├── about.html
+├── contact.html
+├── assets/
+│   └── css/
+│       └── style.css
+├── .gitignore
+└── README.md
 ```
 
 ## Getting Started
 
 ```bash
 git clone https://github.com/Aarishkhan12/COFFEE-HOUSE.git
-cd COFFEE-HOUSE/COFFE\ HOUSE
+cd COFFEE-HOUSE
 open index.html
 ```
+
+## Deploy with GitHub Pages
+
+1. Go to **Settings > Pages**
+2. Set Source to **Deploy from a branch**
+3. Select **main** branch, **/ (root)** folder
+4. Save, and your site is live
 
 ## Author
 
